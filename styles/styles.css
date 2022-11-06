@@ -3,26 +3,43 @@
 }
 
 .sec1 {
-    color: #F9FAF8;
     background-color: #1F2937;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .sec1 .item {
-    flex: 1 1
+    flex: 1 1;
+    /*padding: 1em;*/
 }
 
 .sec1 .item .header {
+    color: #F9FAF8;
     font-size : 48px;
     font-weight: extra-bold;
 }
 
 .sec1 .item .secondary {
     font-size : 18px;
-    font-weight: E5E7EB;
+    color: #E5E7EB;
 }
 
+.sec1 .item .logo {
+    color: #F9FAF8;
+    font-size:24px;
+}
 
+.sec1 .item .button {
+    color: #F9FAF8;
+    border-radius: 6px;
+    background: #3882F6;
+    padding-left : 10px;
+    padding-right : 10px;   
+}
+
+img {max-width:70%;}
