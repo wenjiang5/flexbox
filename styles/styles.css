@@ -1,0 +1,28 @@
+* {
+    border: 2px solid red;
+}
+
+.sec1 {
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.sec1 .item {
+    flex: 1 1
+}
+
+.sec1 .item .header {
+    font-size : 48px;
+    font-weight: extra-bold;
+}
+
+.sec1 .item .secondary {
+    font-size : 18px;
+    font-weight: E5E7EB;
+}
+
+
